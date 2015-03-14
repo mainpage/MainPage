@@ -1,0 +1,395 @@
+[ 2015-02-15T17:05:40+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:05:40+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.000774s ]
+[ 2015-02-15T17:05:40+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000871s ]
+[ 2015-02-15T17:05:40+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:05:40+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000468s ]
+[ 2015-02-15T17:05:40+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000520s ]
+[ 2015-02-15T17:05:40+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:05:40+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000347s ]
+[ 2015-02-15T17:05:40+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000422s ]
+[ 2015-02-15T17:05:40+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.065975s ]
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.066067s ]
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.000396s ]
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.000409s ]
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000297s ]
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000525s ]
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001822s ]
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000568s ]
+[ 2015-02-15T17:05:41+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000640s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run CheckRoute Behavior [ RunTime:0.001714s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001968s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000836s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000947s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run LocationTemplate Behavior [ RunTime:0.002569s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002721s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 41 行.
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  new_memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 45 行.
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  manage_memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 46 行.
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 51 行.
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  new_article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 53 行.
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  manage_article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 54 行.
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  manage_draft 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 55 行.
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ParseTemplate Behavior [ RunTime:0.103984s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.104091s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ContentReplace Behavior [ RunTime:0.000912s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run TokenBuild Behavior [ RunTime:0.001256s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001105s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001425s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004947s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000790s ]
+[ 2015-02-15T17:05:43+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000843s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run CheckRoute Behavior [ RunTime:0.002075s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002461s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001038s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001105s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001342s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001427s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 42 行.
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  new_memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 46 行.
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  manage_memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 47 行.
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 52 行.
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  new_article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 54 行.
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  manage_article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 55 行.
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  manage_draft 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 56 行.
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ParseTemplate Behavior [ RunTime:0.029435s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.029508s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ContentReplace Behavior [ RunTime:0.000852s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run TokenBuild Behavior [ RunTime:0.000901s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000643s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000827s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003406s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000866s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000929s ]
+[ 2015-02-15T17:08:07+08:00 ] /thinkphpTest/admin.php/Index/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2015-02-15T17:08:14+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:08:14+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run CheckRoute Behavior [ RunTime:0.001172s ]
+[ 2015-02-15T17:08:14+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001288s ]
+[ 2015-02-15T17:08:14+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:08:14+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000870s ]
+[ 2015-02-15T17:08:14+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000921s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001279s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001351s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  dashboard 9ce4b9130cad61dbd0bbd49942681a43.php 第 42 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 46 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  new_memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 50 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 51 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  new_article 9ce4b9130cad61dbd0bbd49942681a43.php 第 58 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_article 9ce4b9130cad61dbd0bbd49942681a43.php 第 59 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_draft 9ce4b9130cad61dbd0bbd49942681a43.php 第 60 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 95 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 102 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 105 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 112 行.
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ParseTemplate Behavior [ RunTime:0.025209s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025289s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ContentReplace Behavior [ RunTime:0.001080s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run TokenBuild Behavior [ RunTime:0.001256s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000623s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000741s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004066s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000763s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000813s ]
+[ 2015-02-15T17:08:15+08:00 ] /thinkphpTest/admin.php/Article/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2015-02-15T17:08:24+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:08:24+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run CheckRoute Behavior [ RunTime:0.001325s ]
+[ 2015-02-15T17:08:24+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001424s ]
+[ 2015-02-15T17:08:24+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:08:24+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000837s ]
+[ 2015-02-15T17:08:24+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000916s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001795s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.002018s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  dashboard 9ce4b9130cad61dbd0bbd49942681a43.php 第 42 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 46 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  new_memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 50 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 51 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  new_article 9ce4b9130cad61dbd0bbd49942681a43.php 第 58 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_article 9ce4b9130cad61dbd0bbd49942681a43.php 第 59 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_draft 9ce4b9130cad61dbd0bbd49942681a43.php 第 60 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 95 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 102 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 105 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 112 行.
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ParseTemplate Behavior [ RunTime:0.020312s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020388s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ContentReplace Behavior [ RunTime:0.000901s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run TokenBuild Behavior [ RunTime:0.000879s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000600s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000733s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003263s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000773s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000839s ]
+[ 2015-02-15T17:08:25+08:00 ] /thinkphpTest/admin.php/Article/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run CheckRoute Behavior [ RunTime:0.001344s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.001646s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000739s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000832s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000546s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000623s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  dashboard 9ce4b9130cad61dbd0bbd49942681a43.php 第 42 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 46 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  new_memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 50 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 51 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  new_article 9ce4b9130cad61dbd0bbd49942681a43.php 第 58 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_article 9ce4b9130cad61dbd0bbd49942681a43.php 第 59 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_draft 9ce4b9130cad61dbd0bbd49942681a43.php 第 60 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 95 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 102 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 105 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 112 行.
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ParseTemplate Behavior [ RunTime:0.013237s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013392s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ContentReplace Behavior [ RunTime:0.000929s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run TokenBuild Behavior [ RunTime:0.000903s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000625s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000499s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003275s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000443s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000503s ]
+[ 2015-02-15T17:08:27+08:00 ] /thinkphpTest/admin.php/Article/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run CheckRoute Behavior [ RunTime:0.000842s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000949s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000759s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000907s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run LocationTemplate Behavior [ RunTime:0.000872s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.000999s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  dashboard 9ce4b9130cad61dbd0bbd49942681a43.php 第 42 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 46 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  new_memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 50 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 51 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  new_article 9ce4b9130cad61dbd0bbd49942681a43.php 第 58 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_article 9ce4b9130cad61dbd0bbd49942681a43.php 第 59 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_draft 9ce4b9130cad61dbd0bbd49942681a43.php 第 60 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 95 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 102 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 105 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 112 行.
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ParseTemplate Behavior [ RunTime:0.012252s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.012328s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ContentReplace Behavior [ RunTime:0.000915s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run TokenBuild Behavior [ RunTime:0.000469s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000244s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000463s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002293s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000434s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000493s ]
+[ 2015-02-15T17:08:29+08:00 ] /thinkphpTest/admin.php/Article/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run CheckRoute Behavior [ RunTime:0.000697s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000785s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000431s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000499s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.035314s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.025830s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | SQL: SELECT * FROM `think_article` WHERE isSubmitted=1 LIMIT 0,5   [ RunTime:0.000706s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001796s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001949s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  dashboard 4cf132cdb6642034410dbfb2ab3160bc.php 第 37 行.
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  memo 4cf132cdb6642034410dbfb2ab3160bc.php 第 41 行.
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  new_memo 4cf132cdb6642034410dbfb2ab3160bc.php 第 45 行.
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  manage_memo 4cf132cdb6642034410dbfb2ab3160bc.php 第 46 行.
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  new_article 4cf132cdb6642034410dbfb2ab3160bc.php 第 53 行.
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  manage_draft 4cf132cdb6642034410dbfb2ab3160bc.php 第 55 行.
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ParseTemplate Behavior [ RunTime:0.049244s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.049401s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ContentReplace Behavior [ RunTime:0.000410s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run TokenBuild Behavior [ RunTime:0.000486s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000228s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000363s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001645s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000421s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000493s ]
+[ 2015-02-15T17:08:31+08:00 ] /thinkphpTest/admin.php/Article/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run CheckRoute Behavior [ RunTime:0.000807s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000904s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000478s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000532s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run LocationTemplate Behavior [ RunTime:0.001167s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.001250s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  dashboard 9ce4b9130cad61dbd0bbd49942681a43.php 第 42 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 46 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  new_memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 50 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_memo 9ce4b9130cad61dbd0bbd49942681a43.php 第 51 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  new_article 9ce4b9130cad61dbd0bbd49942681a43.php 第 58 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_article 9ce4b9130cad61dbd0bbd49942681a43.php 第 59 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined index:  manage_draft 9ce4b9130cad61dbd0bbd49942681a43.php 第 60 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 95 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 102 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 105 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | NOTIC: [8] Undefined variable: article_item 9ce4b9130cad61dbd0bbd49942681a43.php 第 112 行.
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ParseTemplate Behavior [ RunTime:0.013505s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013575s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ContentReplace Behavior [ RunTime:0.000355s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run TokenBuild Behavior [ RunTime:0.000377s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000216s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000380s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001479s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000437s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000488s ]
+[ 2015-02-15T17:08:37+08:00 ] /thinkphpTest/admin.php/Article/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Run CheckRoute Behavior [ RunTime:0.000858s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ route_check ] --END-- [ RunTime:0.000963s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000620s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000705s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Run LocationTemplate Behavior [ RunTime:0.002530s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ view_template ] --END-- [ RunTime:0.002744s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | NOTIC: [8] Undefined index:  dashboard d0cc88df1229a2e1d495c65057792085.php 第 39 行.
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | NOTIC: [8] Undefined index:  new_memo d0cc88df1229a2e1d495c65057792085.php 第 47 行.
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | NOTIC: [8] Undefined index:  manage_memo d0cc88df1229a2e1d495c65057792085.php 第 48 行.
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | NOTIC: [8] Undefined index:  article d0cc88df1229a2e1d495c65057792085.php 第 53 行.
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | NOTIC: [8] Undefined index:  new_article d0cc88df1229a2e1d495c65057792085.php 第 55 行.
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | NOTIC: [8] Undefined index:  manage_article d0cc88df1229a2e1d495c65057792085.php 第 56 行.
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | NOTIC: [8] Undefined index:  manage_draft d0cc88df1229a2e1d495c65057792085.php 第 57 行.
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | NOTIC: [8] Undefined variable: memo_item d0cc88df1229a2e1d495c65057792085.php 第 92 行.
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | NOTIC: [8] Undefined variable: memo_item d0cc88df1229a2e1d495c65057792085.php 第 98 行.
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | NOTIC: [8] Undefined variable: memo_item d0cc88df1229a2e1d495c65057792085.php 第 101 行.
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Run ParseTemplate Behavior [ RunTime:0.050191s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ view_parse ] --END-- [ RunTime:0.050312s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Run ContentReplace Behavior [ RunTime:0.000634s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Run TokenBuild Behavior [ RunTime:0.000695s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000358s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Run ShowRuntime Behavior [ RunTime:0.000714s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002699s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Run ShowPageTrace Behavior [ RunTime:0.000764s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/add | INFO: Tag[ view_end ] --END-- [ RunTime:0.000949s ]
+[ 2015-02-15T17:08:59+08:00 ] /thinkphpTest/admin.php/Memo/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run CheckRoute Behavior [ RunTime:0.000993s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001165s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000581s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000647s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000848s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000921s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 42 行.
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  new_memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 46 行.
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  manage_memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 47 行.
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 52 行.
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  new_article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 54 行.
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  manage_article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 55 行.
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | NOTIC: [8] Undefined index:  manage_draft 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 56 行.
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ParseTemplate Behavior [ RunTime:0.018044s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018130s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ContentReplace Behavior [ RunTime:0.000387s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run TokenBuild Behavior [ RunTime:0.000430s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000210s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000383s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001549s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000426s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000477s ]
+[ 2015-02-15T17:09:13+08:00 ] /thinkphpTest/admin.php/Index/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run CheckRoute Behavior [ RunTime:0.000862s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000956s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000471s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000523s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.006520s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.005101s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | SQL: SELECT * FROM `think_article` WHERE isSubmitted=1 LIMIT 0,5   [ RunTime:0.000355s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000905s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000967s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  dashboard 4cf132cdb6642034410dbfb2ab3160bc.php 第 37 行.
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  memo 4cf132cdb6642034410dbfb2ab3160bc.php 第 41 行.
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  new_memo 4cf132cdb6642034410dbfb2ab3160bc.php 第 45 行.
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  manage_memo 4cf132cdb6642034410dbfb2ab3160bc.php 第 46 行.
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  new_article 4cf132cdb6642034410dbfb2ab3160bc.php 第 53 行.
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined index:  manage_draft 4cf132cdb6642034410dbfb2ab3160bc.php 第 55 行.
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ParseTemplate Behavior [ RunTime:0.015584s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015679s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ContentReplace Behavior [ RunTime:0.000585s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run TokenBuild Behavior [ RunTime:0.000789s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000660s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000967s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003428s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000663s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000788s ]
+[ 2015-02-15T17:09:21+08:00 ] /thinkphpTest/admin.php/Article/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.000926s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000482s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000535s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000751s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000817s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | NOTIC: [8] Undefined index:  memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 42 行.
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | NOTIC: [8] Undefined index:  new_memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 46 行.
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | NOTIC: [8] Undefined index:  manage_memo 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 47 行.
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | NOTIC: [8] Undefined index:  article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 52 行.
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | NOTIC: [8] Undefined index:  new_article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 54 行.
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | NOTIC: [8] Undefined index:  manage_article 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 55 行.
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | NOTIC: [8] Undefined index:  manage_draft 20eabf8d43f497715f3e1a7ec1a2f00f.php 第 56 行.
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.047278s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.047348s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.000421s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000384s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000226s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000439s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001615s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000451s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000508s ]
+[ 2015-02-15T17:29:16+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources

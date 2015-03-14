@@ -1,0 +1,10 @@
+[ 2014-12-03T21:56:22+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T21:56:22+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.031364s ]
+[ 2014-12-03T21:56:22+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.049247s ]
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/Public/Images/adminicons/cross_grey_small.png | ERR: (ThinkException) 无法加载模块Public
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/Public/Images/adminicons/cross_grey_small.png | ERR: (ThinkException) 无法加载模块Public
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/Public/Images/adminicons/cross_grey_small.png | ERR: (ThinkException) 无法加载模块Public
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/Public/Images/adminicons/cross_grey_small.png | ERR: (ThinkException) 无法加载模块Public
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/Public/Images/adminicons/cross_grey_small.png | ERR: (ThinkException) 无法加载模块Public
+[ 2014-12-03T22:01:55+08:00 ] /thinkphpTest/Public/Images/admins/icons/jquery.wysiwyg.gif | ERR: (ThinkException) 无法加载模块Public
+[ 2014-12-03T22:02:55+08:00 ] /thinkphpTest/Public/Images/admins/icons/jquery.wysiwyg.gif | ERR: (ThinkException) 无法加载模块Public

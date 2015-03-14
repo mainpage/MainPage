@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="blog-header">
+    <h1 class="blog-title"><a href="{:U('Index/index')}">MainPage</a></h1>
+    <p class="lead blog-description">沙朝恒的个人主页 | 为成为老司机而奋斗</p>
+  </div>
+</div>
+<div class="blog-masthead" id="masthead">
+  <div class="container">
+    <nav class="blog-nav">
+      <a class="blog-nav-item {$navbar.index}" href="{:U('Index/index')}">文章</a>
+      <a class="blog-nav-item {$navbar.memo}" href="{:U('Memo/index')}">便签</a>
+      <a class="blog-nav-item" href="">相册</a>
+      <a class="blog-nav-item" href="">视频</a>
+      <eq name="user_name" value="">
+        <a class="blog-nav-item" href="{:U('Login/register')}" style="float:right;">注册</a>
+        <a class="blog-nav-item" href="{:U('Login/index')}" style="float:right;">登录</a>
+      <else/>
+        <a class="blog-nav-item" href="{:U('Login/onLogout')}" style="float:right;">登出</a>
+        <a class="blog-nav-item" style="float:right;">{$user_name}</a>
+      </eq>
+    </nav>
+  </div>
+</div>

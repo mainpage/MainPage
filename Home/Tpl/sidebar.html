@@ -1,0 +1,25 @@
+<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+    <div class="sidebar-module sidebar-module-inset">
+      <h4>About</h4>
+      <p><em>Truth's like a blanket that always leaves your feet cold. You push it, stretch it, it'll never be enough. You kick at it, beat it, it will never cover any of us. From the moment we enter crying to the moment we leave dying, it will cover just your face as you wail and cry and scream!</em></p>
+    </div>
+    <div class="sidebar-module">
+      <h4>Categories</h4>
+      <ol class="list-unstyled">
+        <foreach name="category_list" item="category">
+        <li style="font-family:Microsoft YaHei; font-size:16px;">
+          <a href="__URL__/index/category/{$category.categoryId}">{$category.categoryName}</a>
+        </li>
+      </foreach>
+      </ol>
+    </div>
+    <div class="sidebar-module">
+      <h4>Elsewhere</h4>
+      <ol class="list-unstyled">
+        <li><a href="https://github.com/mainpage" target="a_blank">GitHub</a></li>
+        <li><a href="http://weibo.com/u/1824455400" target="a_blank">Weibo</a></li>
+      </ol>
+    </div>
+  </div><!-- /.blog-sidebar -->
+
+</div><!-- /.row -->

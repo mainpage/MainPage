@@ -1,0 +1,119 @@
+[ 2015-03-07T20:35:02+08:00 ] /thinkphpTest/ueditor/themes/default/ueditor.css | ERR: (ThinkException) 无法加载模块ueditor
+[ 2015-03-07T20:35:07+08:00 ] /thinkphpTest/ueditor/themes/default/ueditor.css | ERR: (ThinkException) 无法加载模块ueditor
+[ 2015-03-07T21:09:41+08:00 ] /thinkphpTest/ueditor/themes/default/ueditor.css | ERR: (ThinkException) 无法加载模块ueditor
+[ 2015-03-07T21:09:48+08:00 ] /thinkphpTest/ueditor/themes/default/ueditor.css | ERR: (ThinkException) 无法加载模块ueditor
+[ 2015-03-07T21:10:08+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-03-07T21:10:08+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003961s ]
+[ 2015-03-07T21:10:08+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004306s ]
+[ 2015-03-07T21:10:08+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.025661s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.034609s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.054719s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.005952s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.016253s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.022923s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.023310s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.259269s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.259561s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.003345s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.003320s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.005752s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.003903s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.017159s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.002938s ]
+[ 2015-03-07T21:10:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.003211s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001859s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002199s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.012425s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.019233s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000749s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.006376s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.009876s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.004720s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.004998s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.054613s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.054828s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.000913s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.000930s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000526s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001316s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004112s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001544s ]
+[ 2015-03-07T21:10:10+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001771s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ route_check ] --START--
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.003315s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.003895s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001294s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001432s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_template ] --START--
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.003782s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.004003s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.126881s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.127194s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.002426s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.001319s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000806s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001296s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006662s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_end ] --START--
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001200s ]
+[ 2015-03-07T21:10:34+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001345s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ route_check ] --START--
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.003795s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.004068s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002437s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002606s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_template ] --START--
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.004680s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.004858s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.029429s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.029645s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.002117s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.002158s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002120s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.002185s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009076s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_end ] --START--
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.002062s ]
+[ 2015-03-07T21:10:35+08:00 ] /thinkphpTest/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.002198s ]
+[ 2015-03-07T21:10:38+08:00 ] /thinkphpTest/Login/createCode?code=b669 | INFO: Tag[ route_check ] --START--
+[ 2015-03-07T21:10:38+08:00 ] /thinkphpTest/Login/createCode?code=b669 | INFO: Run CheckRoute Behavior [ RunTime:0.002730s ]
+[ 2015-03-07T21:10:38+08:00 ] /thinkphpTest/Login/createCode?code=b669 | INFO: Tag[ route_check ] --END-- [ RunTime:0.003012s ]
+[ 2015-03-07T21:10:38+08:00 ] /thinkphpTest/Login/createCode?code=b669 | INFO: Tag[ app_begin ] --START--
+[ 2015-03-07T21:10:38+08:00 ] /thinkphpTest/Login/createCode?code=b669 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001859s ]
+[ 2015-03-07T21:10:38+08:00 ] /thinkphpTest/Login/createCode?code=b669 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002176s ]
+[ 2015-03-07T21:10:38+08:00 ] /thinkphpTest/Login/createCode?code=b669 | NOTIC: [2] imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Invalid font filename LoginAction.class.php 第 94 行.
+[ 2015-03-07T21:10:38+08:00 ] /thinkphpTest/Login/createCode?code=b669 | NOTIC: [2] imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Invalid font filename LoginAction.class.php 第 94 行.
+[ 2015-03-07T21:10:38+08:00 ] /thinkphpTest/Login/createCode?code=b669 | NOTIC: [2] imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Invalid font filename LoginAction.class.php 第 94 行.
+[ 2015-03-07T21:10:38+08:00 ] /thinkphpTest/Login/createCode?code=b669 | NOTIC: [2] imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Invalid font filename LoginAction.class.php 第 94 行.
+[ 2015-03-07T21:10:41+08:00 ] /thinkphpTest/Login/createCode?code=4f2a | INFO: Tag[ route_check ] --START--
+[ 2015-03-07T21:10:41+08:00 ] /thinkphpTest/Login/createCode?code=4f2a | INFO: Run CheckRoute Behavior [ RunTime:0.002350s ]
+[ 2015-03-07T21:10:41+08:00 ] /thinkphpTest/Login/createCode?code=4f2a | INFO: Tag[ route_check ] --END-- [ RunTime:0.002631s ]
+[ 2015-03-07T21:10:41+08:00 ] /thinkphpTest/Login/createCode?code=4f2a | INFO: Tag[ app_begin ] --START--
+[ 2015-03-07T21:10:41+08:00 ] /thinkphpTest/Login/createCode?code=4f2a | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001340s ]
+[ 2015-03-07T21:10:41+08:00 ] /thinkphpTest/Login/createCode?code=4f2a | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001489s ]
+[ 2015-03-07T21:10:41+08:00 ] /thinkphpTest/Login/createCode?code=4f2a | NOTIC: [2] imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Invalid font filename LoginAction.class.php 第 94 行.
+[ 2015-03-07T21:10:41+08:00 ] /thinkphpTest/Login/createCode?code=4f2a | NOTIC: [2] imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Invalid font filename LoginAction.class.php 第 94 行.
+[ 2015-03-07T21:10:41+08:00 ] /thinkphpTest/Login/createCode?code=4f2a | NOTIC: [2] imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Invalid font filename LoginAction.class.php 第 94 行.
+[ 2015-03-07T21:10:41+08:00 ] /thinkphpTest/Login/createCode?code=4f2a | NOTIC: [2] imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Invalid font filename LoginAction.class.php 第 94 行.
+[ 2015-03-07T21:11:52+08:00 ] /thinkphpTest/ueditor/themes/default/ueditor.css | ERR: (ThinkException) 无法加载模块ueditor

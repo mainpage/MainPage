@@ -1,0 +1,855 @@
+[ 2015-02-15T17:27:26+08:00 ] /thinkphpTest/home.php/ | ERR: (ThinkException) 无法加载模块home.php
+[ 2015-02-15T17:27:53+08:00 ] /thinkphpTest/home.php/ | ERR: (ThinkException) 无法加载模块home.php
+[ 2015-02-15T17:27:53+08:00 ] /thinkphpTest/home.php/ | ERR: (ThinkException) 无法加载模块home.php
+[ 2015-02-15T17:27:54+08:00 ] /thinkphpTest/home.php/ | ERR: (ThinkException) 无法加载模块home.php
+[ 2015-02-15T17:27:54+08:00 ] /thinkphpTest/home.php/ | ERR: (ThinkException) 无法加载模块home.php
+[ 2015-02-15T17:27:55+08:00 ] /thinkphpTest/home.php/ | ERR: (ThinkException) 无法加载模块home.php
+[ 2015-02-15T17:28:01+08:00 ] /thinkphpTest/home.php/ | ERR: (ThinkException) 无法加载模块home.php
+[ 2015-02-15T17:28:13+08:00 ] /thinkphpTest/index.php/ | ERR: (ThinkException) 模板不存在[./Home/Tpl/Index/index.html]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001206s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001305s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001080s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001148s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001191s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001266s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.016713s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016885s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.002137s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.002191s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001120s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001153s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007034s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000916s ]
+[ 2015-02-15T17:28:51+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000981s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001511s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001896s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001633s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001888s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001327s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001482s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.025074s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025198s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.002016s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.001014s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000734s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000820s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004804s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000864s ]
+[ 2015-02-15T17:29:08+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000931s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Run CheckRoute Behavior [ RunTime:0.000919s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001025s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000562s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000624s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000411s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000478s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Run ParseTemplate Behavior [ RunTime:0.010217s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010332s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Run ContentReplace Behavior [ RunTime:0.000768s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Run TokenBuild Behavior [ RunTime:0.001165s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000737s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000614s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003644s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000592s ]
+[ 2015-02-15T17:29:35+08:00 ] /thinkphpTest/index.php/Index/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000640s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001220s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001318s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000901s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000955s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001323s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001432s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.014721s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014828s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.000922s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000868s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000848s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001367s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004229s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001044s ]
+[ 2015-02-15T17:30:03+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001110s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.000895s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001016s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000580s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000651s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000440s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000535s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.009794s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009925s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.000459s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000439s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000415s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000878s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002538s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001121s ]
+[ 2015-02-15T17:30:06+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001297s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.000797s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.000903s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000527s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000590s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000359s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000430s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.011312s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011433s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000471s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000456s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000244s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000435s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001794s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000433s ]
+[ 2015-02-15T17:30:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000490s ]
+[ 2015-02-15T17:30:31+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001347s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001463s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001104s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001175s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001599s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001691s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.013051s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013143s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000799s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000834s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000662s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000836s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003289s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000856s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000909s ]
+[ 2015-02-15T17:32:24+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001385s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001518s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001071s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001133s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001347s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001419s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.017283s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017375s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000872s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000918s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000690s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000868s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003498s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000877s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000931s ]
+[ 2015-02-15T17:34:43+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T20:52:10+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T20:52:10+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.020368s ]
+[ 2015-02-15T20:52:10+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.031490s ]
+[ 2015-02-15T20:52:10+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T20:52:10+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.021502s ]
+[ 2015-02-15T20:52:10+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.022133s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.002689s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002837s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.076713s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.076813s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.013802s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.013743s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.016083s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.002934s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.047026s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.009538s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.009614s ]
+[ 2015-02-15T20:52:11+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001067s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001181s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000843s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000917s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001104s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001162s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.039127s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.039227s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000804s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000793s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000581s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000757s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003082s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000833s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000884s ]
+[ 2015-02-15T20:56:02+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.011119s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.043318s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.021643s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.021973s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.013538s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.013783s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.129532s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.129709s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.027441s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.013281s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.037795s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.002649s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.081928s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.010229s ]
+[ 2015-02-15T22:59:53+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.010458s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.000963s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001122s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000573s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000646s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000357s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000422s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.013541s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013685s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.001337s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000632s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000837s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000996s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004226s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000786s ]
+[ 2015-02-15T22:59:55+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000966s ]
+[ 2015-02-15T22:59:57+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:00:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:00:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.002117s ]
+[ 2015-02-15T23:00:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002365s ]
+[ 2015-02-15T23:00:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:00:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001247s ]
+[ 2015-02-15T23:00:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001392s ]
+[ 2015-02-15T23:00:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.005360s ]
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.005641s ]
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.046644s ]
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.047010s ]
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.003582s ]
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.003078s ]
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.004515s ]
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.002476s ]
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.014486s ]
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002153s ]
+[ 2015-02-15T23:00:57+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002289s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.002781s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.003104s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001368s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001507s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001442s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001743s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.031830s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.032019s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000865s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000975s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000546s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001014s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003764s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001099s ]
+[ 2015-02-15T23:01:47+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001228s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.003370s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.003693s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004098s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004498s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.003395s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003607s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.085975s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.086163s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.002021s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.003566s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002464s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.002049s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.010644s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002052s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002188s ]
+[ 2015-02-15T23:04:01+08:00 ] /thinkphpTest/Public/Js/home/sch.js | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.000827s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.000941s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000562s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000636s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001378s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001449s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.014334s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014434s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000960s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000905s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000745s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000916s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003707s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000931s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000991s ]
+[ 2015-02-15T23:04:03+08:00 ] /thinkphpTest/Public/Js/home/sch.js | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.000834s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.000938s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000615s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000700s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001336s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001405s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.020608s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020705s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.001414s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000957s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000710s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000950s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004240s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000946s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001007s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/Public/Js/home/sch.js | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001004s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001111s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000572s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000632s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000360s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000424s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.026318s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026423s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000418s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000621s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000528s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000642s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002490s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000570s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000631s ]
+[ 2015-02-15T23:04:04+08:00 ] /thinkphpTest/Public/Js/home/sch.js | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.000955s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001065s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000808s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000949s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001312s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001383s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.013867s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014151s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.001112s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.001063s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000700s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000976s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004069s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000905s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000967s ]
+[ 2015-02-15T23:04:05+08:00 ] /thinkphpTest/Public/Js/home/sch.js | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:04:08+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001136s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001247s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000557s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000621s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000382s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000445s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.015237s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015334s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000408s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000430s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000237s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000430s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001652s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000588s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000637s ]
+[ 2015-02-15T23:04:40+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.000843s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.000949s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000524s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000585s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000365s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000431s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.011309s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011424s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000386s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000408s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000235s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000431s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001629s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000449s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000507s ]
+[ 2015-02-15T23:04:45+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.002010s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002269s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000823s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000904s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000538s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000622s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.013142s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013260s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000558s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000590s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000355s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000619s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002340s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000743s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000825s ]
+[ 2015-02-15T23:05:03+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.003219s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.003484s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001928s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002135s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000927s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001078s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.023913s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024096s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000906s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.001133s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000784s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001004s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004273s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001286s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001428s ]
+[ 2015-02-15T23:05:33+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.000965s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001078s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000580s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000641s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000398s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000465s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.011046s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011179s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000634s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000962s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001132s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001457s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004920s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000749s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000844s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001110s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001261s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000719s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000818s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000365s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000435s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.013487s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013595s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000460s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000537s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000270s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000621s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002126s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000810s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000991s ]
+[ 2015-02-15T23:05:35+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001919s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002082s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001565s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001659s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001954s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002057s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.025351s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025485s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.001370s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.001303s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001053s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001338s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005330s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001384s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001476s ]
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:07:49+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.004094s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.004518s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002981s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003138s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.003979s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.004347s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.033339s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.034037s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.003605s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.002499s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001623s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.002260s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.010525s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002195s ]
+[ 2015-02-15T23:08:14+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002341s ]
+[ 2015-02-15T23:08:15+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:08:15+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.003256s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.003484s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001448s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001539s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001858s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001958s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.015314s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015416s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.001005s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000919s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001152s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001482s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004898s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001300s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001427s ]
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:10:18+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.003474s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.003699s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002889s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003045s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.003812s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.004082s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.043553s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.043760s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.002171s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.002316s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002143s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.002191s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009319s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002353s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002493s ]
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:11:03+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.000925s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001050s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000581s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000648s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001432s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001513s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.017794s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018043s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000987s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.001016s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001070s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001031s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004321s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001137s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001199s ]
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:11:05+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001854s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002263s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001751s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001920s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.002006s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002106s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.026201s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026335s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.001667s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.001473s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001127s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001556s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006222s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001646s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001758s ]
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:12:06+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001958s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002099s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001435s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001516s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000555s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000641s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.015114s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015255s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000557s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000619s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000342s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000608s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002350s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000754s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000829s ]
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:12:51+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.002155s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002303s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001765s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001927s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.002396s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002529s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.019228s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019370s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.001312s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.001303s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001034s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001299s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005197s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001465s ]
+[ 2015-02-15T23:29:56+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001548s ]
+[ 2015-02-15T23:29:57+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:29:57+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.003815s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.004048s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002480s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002626s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.004988s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.005182s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.037621s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.037839s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.002231s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.002423s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001872s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.002284s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009313s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002309s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002449s ]
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:31:11+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001143s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001293s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000714s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000811s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.000564s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000679s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.016232s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016374s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.000550s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.000615s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000374s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.000629s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002415s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001285s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001654s ]
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:31:32+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.001802s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002023s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001156s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001341s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.001155s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001467s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.034042s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.034470s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.001410s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.001063s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000707s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001120s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004874s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001159s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001332s ]
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:32:35+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run CheckRoute Behavior [ RunTime:0.004324s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.004770s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002304s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002479s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run LocationTemplate Behavior [ RunTime:0.003633s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003839s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ParseTemplate Behavior [ RunTime:0.030530s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.030724s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ContentReplace Behavior [ RunTime:0.004547s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run TokenBuild Behavior [ RunTime:0.003985s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001682s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowRuntime Behavior [ RunTime:0.002074s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.013086s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002057s ]
+[ 2015-02-15T23:33:08+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002192s ]
+[ 2015-02-15T23:33:09+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:33:09+08:00 ] /thinkphpTest/Public/Css/home/bootstrap-theme.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-02-15T23:42:09+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | ERR: (ThinkException) 模板不存在[index1.html]
+[ 2015-02-15T23:42:32+08:00 ] /thinkphpTest/index.php/?__hash__=6b4f271ffcda9a0fbc2a03c26beb69dc_7c4a4673a9ea57354c24794c5dc252e5 | ERR: (ThinkException) 模板不存在[index1.html]
+[ 2015-02-15T23:42:35+08:00 ] /thinkphpTest/index.php/ | ERR: (ThinkException) 模板不存在[index1.html]
+[ 2015-02-15T23:44:41+08:00 ] /thinkphpTest/index.php/ | ERR: (ThinkException) 模板不存在[index1.html]
+[ 2015-02-15T23:45:10+08:00 ] /thinkphpTest/index.php/ | ERR: (ThinkException) 模板不存在[index1.html]
+[ 2015-02-15T23:45:11+08:00 ] /thinkphpTest/index.php/ | ERR: (ThinkException) 模板不存在[index1.html]
+[ 2015-02-15T23:45:11+08:00 ] /thinkphpTest/index.php/ | ERR: (ThinkException) 模板不存在[index1.html]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ route_check ] --START--
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.002179s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.002445s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ app_begin ] --START--
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002088s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002330s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_template ] --START--
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.002114s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.002270s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_parse ] --START--
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.185454s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.185647s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_filter ] --START--
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.002490s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.002343s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001994s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.002096s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009441s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_end ] --START--
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.003746s ]
+[ 2015-02-15T23:45:53+08:00 ] /thinkphpTest/index.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.004039s ]

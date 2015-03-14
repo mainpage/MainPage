@@ -1,0 +1,10 @@
+[ 2014-12-10T15:47:45+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-10T15:47:45+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000808s ]
+[ 2014-12-10T15:47:45+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000973s ]
+[ 2014-12-10T15:48:03+08:00 ] /thinkphpTest/admin/Index | ERR: (ThinkException) 无法加载模块Admin
+[ 2014-12-10T15:48:15+08:00 ] /thinkphpTest/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-10T15:53:22+08:00 ] /thinkphpTest/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-10T15:55:15+08:00 ] /thinkphpTest/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-10T15:55:19+08:00 ] /thinkphpTest/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-10T15:57:06+08:00 ] /thinkphpTest/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-10T15:57:08+08:00 ] /thinkphpTest/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources

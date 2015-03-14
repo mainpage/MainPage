@@ -1,0 +1,92 @@
+
+
+/*细节格式*/
+
+/*注册信息form*/
+.content{
+    margin-top: 30px;
+    overflow: hidden;
+    width: 610px;
+    font-family: Microsoft YaHei;
+}
+/*每行注册信息的填写框*/
+.input-div{
+    width: 610px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 70px;
+    position: relative;
+    text-align: right;
+}
+.inputs{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    padding: 7px;
+    font-size: 15px;
+    width: 340px;
+    /*color: #ccc;*/
+    /*margin-right: 200px;*/
+    float:left;
+}
+/*控制所有输入框后面的提示*/
+.tips{
+    font-size: 12px;
+    font: 黑体;
+    line-height:37px;
+    text-align: left;
+    text-indent: 15px;
+    width: 250px;
+    float: left;
+}
+#checkcode-img{
+    display: none;
+    margin-top: 4px;
+    width: 100px;
+    height: 30px; 
+    position: absolute;
+    left: 235px;
+}
+button{
+    width: 340px;
+    height: 40px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+/*框在不同时刻的不同样式*/
+.click-input{
+    border-color: rgba(82,168,236,.8);
+    outline: 0;
+    outline: thin dotted \9;
+    box-shadow: 0 0 8px rgba(82,168,236,.6);
+}
+.blur-wrong{
+  border-color: #EF1503;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+}
+
+/*提示信息的不同样式*/
+
+.wrong{
+    color: #FA8072;
+}
+.success{
+    color: rgb(66, 139, 202);
+}
+
+#ad{
+    position: absolute; 
+    width: 400px;
+    height: 400px;
+    top: 240px;
+    right: 200px;
+    background: url(https://static-s.bilibili.com/images/v2images/login/2233pic.jpg) no-repeat;
+}
+
+#received-notice{
+    color: red;
+    font-family: Microsoft YaHei;
+    font-size: 15px;
+    margin-left: 70px;
+}

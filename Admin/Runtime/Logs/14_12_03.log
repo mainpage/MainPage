@@ -1,0 +1,263 @@
+[ 2014-12-03T21:56:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T21:56:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.016089s ]
+[ 2014-12-03T21:56:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.016213s ]
+[ 2014-12-03T21:56:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T21:56:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001047s ]
+[ 2014-12-03T21:56:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001111s ]
+[ 2014-12-03T21:56:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T21:56:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.014360s ]
+[ 2014-12-03T21:56:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.014458s ]
+[ 2014-12-03T21:56:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.316958s ]
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.317066s ]
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.018780s ]
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.013965s ]
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.015438s ]
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.006802s ]
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.055306s ]
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.018880s ]
+[ 2014-12-03T21:56:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.019259s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001369s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001515s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000976s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001052s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000855s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000929s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.031659s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.031794s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.001022s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000954s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000637s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000815s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003594s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001275s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001455s ]
+[ 2014-12-03T21:57:27+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001243s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001345s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000876s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000937s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000730s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000787s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.029210s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.029300s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.000902s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000947s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000631s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000818s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003443s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001543s ]
+[ 2014-12-03T21:58:37+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001664s ]
+[ 2014-12-03T21:58:38+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.000777s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.000880s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000437s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000486s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000370s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000439s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.070771s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.070868s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.000488s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000444s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000208s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000381s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001676s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000682s ]
+[ 2014-12-03T21:58:59+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000842s ]
+[ 2014-12-03T21:59:00+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001446s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001625s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001986s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002106s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001316s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001465s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.032348s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.032478s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.001202s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.001664s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001198s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001296s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005753s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001551s ]
+[ 2014-12-03T22:01:30+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001682s ]
+[ 2014-12-03T22:01:31+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001147s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001252s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001324s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001424s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001067s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001156s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.029198s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.029300s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.000909s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000927s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000633s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000808s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003428s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001127s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001254s ]
+[ 2014-12-03T22:02:51+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-03T22:12:20+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T22:12:20+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001220s ]
+[ 2014-12-03T22:12:20+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001337s ]
+[ 2014-12-03T22:12:20+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T22:12:20+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000847s ]
+[ 2014-12-03T22:12:20+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000919s ]
+[ 2014-12-03T22:12:20+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T22:12:20+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000739s ]
+[ 2014-12-03T22:12:20+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000797s ]
+[ 2014-12-03T22:12:20+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.070930s ]
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.071021s ]
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.000932s ]
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.001007s ]
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000628s ]
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000872s ]
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003595s ]
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.002105s ]
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.002303s ]
+[ 2014-12-03T22:12:21+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001434s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001552s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001071s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001133s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000920s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000989s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.027310s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.027414s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.001007s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000836s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000636s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000819s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003485s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001181s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001315s ]
+[ 2014-12-03T22:15:24+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001123s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001223s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000886s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000937s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000737s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000793s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.024405s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024492s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.001074s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000889s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000660s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000779s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003563s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001427s ]
+[ 2014-12-03T22:15:34+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001556s ]
+[ 2014-12-03T22:15:35+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001340s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001462s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001056s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001124s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000754s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000813s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.049569s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.049657s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.000956s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000824s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000593s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000808s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003351s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001052s ]
+[ 2014-12-03T22:15:38+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001150s ]
+[ 2014-12-03T22:15:39+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001971s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.002127s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002112s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002216s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000748s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000810s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.102921s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.103079s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.002736s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.002418s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002485s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.003510s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.011809s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.002751s ]
+[ 2014-12-03T22:30:43+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.002965s ]
+[ 2014-12-03T22:30:44+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.001127s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001231s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000997s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001086s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000734s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000794s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.025908s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026000s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.001068s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.000892s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000634s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000823s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003589s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001631s ]
+[ 2014-12-03T22:33:25+08:00 ] /thinkphpTest/admin.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001794s ]
+[ 2014-12-03T22:33:26+08:00 ] /thinkphpTest/admin.php/resources/images/closelabel.gif | ERR: (ThinkException) 无法加载模块resources

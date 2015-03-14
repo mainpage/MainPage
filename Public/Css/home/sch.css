@@ -1,0 +1,89 @@
+/*重写blog.css及bootstrap部分样式*/
+
+
+.container{
+	width: 1000px;
+}
+.blog-footer{
+	margin-top: 20px;
+}
+/*blog页面*/
+.blog-title{
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.blog-title a{
+    color:#333;
+}
+.blog-title a:hover{
+    text-decoration:none;
+}
+.blog-masthead{
+	font-size: 20px;
+}
+.masthead-fixed-top{
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+	width: 100%;
+}
+.blog-header{
+	padding: 0;
+}
+.blog-post{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #eee;
+}
+.blog-post a:hover{
+	text-decoration: none;
+}
+.blog-post-title{
+	font-size: 25px;
+	color: #428bca;
+	margin-bottom: 8px;
+}
+.readmore{
+	font-size: 15px;
+	color: #999;
+}
+.readmore:hover{
+	color: #428bca;
+}
+.sidebar-module{
+	margin-top: 20px;
+}
+hr{
+	border-top: 2px solid #eee;;
+}
+
+/*memo页面*/
+
+.note{
+	float: left;
+	width: 200px;
+	padding: 20px 30px 40px 35px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background: #95BBDB;
+	/*border-bottom-left-radius: 20px;*/
+	box-shadow: #666 0px 0px 10px;
+	font-size: 18px;
+	word-break:break-word; 
+}
+.note a{
+	color: #fff;
+}
+.note a:hover{
+	color: #337ab7;
+}
+
+#end-info {
+	display: none; 
+	width: 930px; 
+	margin: 20px 0 0 10px; 
+	text-align: center;
+	font-size: 18px;
+	font-family: Microsoft YaHei;
+}

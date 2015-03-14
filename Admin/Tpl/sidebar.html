@@ -1,0 +1,64 @@
+	<div id="sidebar">
+		<div id="sidebar-wrapper"> <!-- Sidebar with logo and menu -->
+			
+			<h1 id="sidebar-title"><a href="{:U('Index/index')}">Simpla Admin</a></h1>
+		  
+			<!-- Logo (221px wide) -->
+			<a href="{:U('Index/index')}"><img id="logo" src="__PUBLIC__/Images/admin/logo.png" alt="Simpla Admin logo" /></a>
+		  
+			<!-- Sidebar Profile links -->
+			<div id="profile-links">
+				Hello, <a>{$user_name}</a> | <a href="{:U('Login/logout')}" title="Sign Out">Sign Out</a>
+			</div>        
+			
+			<ul id="main-nav">  <!-- Accordion Menu -->
+				
+				<li>
+					<a href="{:U('Index/index')}" class="nav-top-item no-submenu {$menu.dashboard}">Dashboard</a>       
+				</li>
+								
+				<li>
+					<a href="#" class="nav-top-item {$menu.memo}">
+						Memos
+					</a>
+					<ul>
+						<li><a class="{$menu.new_memo}" href="{:U('Memo/add')}">Create a new Memo</a></li>
+						<li><a class="{$menu.manage_memo}" href="{:U('Memo/index')}">Manage Memos</a></li>
+					</ul>
+				</li>
+				
+				<li> 
+					<a href="#" class="nav-top-item {$menu.article}">Articles</a>
+					<ul>
+						<li><a class="{$menu.new_article}" href="{:U('Article/add')}">Write a new Article</a></li>
+						<li><a class="{$menu.manage_article}" href="{:U('Article/index')}">Manage Articles</a></li>
+						<li><a class="{$menu.manage_draft}" href="{:U('Article/draft')}">Manage Drafts</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#" class="nav-top-item">
+						Image Gallery
+					</a>
+					<ul>
+						<li><a href="#">Upload Images</a></li>
+						<li><a href="#">Manage Galleries</a></li>
+						<li><a href="#">Manage Albums</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#" class="nav-top-item">
+						Events Calendar
+					</a>
+					<ul>
+						<li><a href="#">Calendar Overview</a></li>
+						<li><a href="#">Add a new Event</a></li>
+						<li><a href="#">Calendar Settings</a></li>
+					</ul>
+				</li>			 
+				
+			</ul> <!-- End #main-nav -->
+					
+		</div>
+	</div> <!-- End #sidebar -->

@@ -1,0 +1,308 @@
+[ 2014-12-17T17:01:59+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:01:59+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.015617s ]
+[ 2014-12-17T17:01:59+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.030874s ]
+[ 2014-12-17T17:01:59+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:01:59+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.030741s ]
+[ 2014-12-17T17:01:59+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.030889s ]
+[ 2014-12-17T17:01:59+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:01:59+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.025948s ]
+[ 2014-12-17T17:01:59+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.026124s ]
+[ 2014-12-17T17:01:59+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.666684s ]
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.666825s ]
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.033213s ]
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.014671s ]
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.015135s ]
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.016139s ]
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.079537s ]
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.024864s ]
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.025016s ]
+[ 2014-12-17T17:02:00+08:00 ] /thinkphpTest/admin.php/Login/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run CheckRoute Behavior [ RunTime:0.001050s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001191s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000662s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000746s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.017509s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.013840s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | SQL: SELECT * FROM `think_article` LIMIT 0,5   [ RunTime:0.000429s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run LocationTemplate Behavior [ RunTime:0.013633s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.013762s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run ParseTemplate Behavior [ RunTime:0.038142s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.038272s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run ContentReplace Behavior [ RunTime:0.001331s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run TokenBuild Behavior [ RunTime:0.001569s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000942s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001224s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005322s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.002048s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.002142s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001894s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.002068s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000792s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000903s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.004939s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.006272s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SELECT * FROM `think_article` LIMIT 0,5   [ RunTime:0.000331s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run LocationTemplate Behavior [ RunTime:0.000711s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_template ] --END-- [ RunTime:0.000848s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ParseTemplate Behavior [ RunTime:0.034259s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --END-- [ RunTime:0.034407s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ContentReplace Behavior [ RunTime:0.000587s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run TokenBuild Behavior [ RunTime:0.000497s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000269s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ShowRuntime Behavior [ RunTime:0.000398s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001942s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ShowPageTrace Behavior [ RunTime:0.002246s ]
+[ 2014-12-17T17:02:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_end ] --END-- [ RunTime:0.002415s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run CheckRoute Behavior [ RunTime:0.000851s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000960s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000670s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000759s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001765s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001858s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined variable: article_item 4cf132cdb6642034410dbfb2ab3160bc.php 第 100 行.
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined variable: article_item 4cf132cdb6642034410dbfb2ab3160bc.php 第 106 行.
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | NOTIC: [8] Undefined variable: article_item 4cf132cdb6642034410dbfb2ab3160bc.php 第 112 行.
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ParseTemplate Behavior [ RunTime:0.120586s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.120689s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ContentReplace Behavior [ RunTime:0.001427s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run TokenBuild Behavior [ RunTime:0.001473s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001112s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001359s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005670s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.003496s ]
+[ 2014-12-17T17:02:08+08:00 ] /thinkphpTest/admin.php/Article/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.003638s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run CheckRoute Behavior [ RunTime:0.001067s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001219s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000862s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000972s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.006160s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | NOTIC: [2] Invalid argument supplied for foreach() Db.class.php 第 482 行.
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.025345s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run LocationTemplate Behavior [ RunTime:0.002333s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002453s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ParseTemplate Behavior [ RunTime:0.026073s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026219s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ContentReplace Behavior [ RunTime:0.001209s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run TokenBuild Behavior [ RunTime:0.001506s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001121s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ShowRuntime Behavior [ RunTime:0.001341s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005510s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ShowPageTrace Behavior [ RunTime:0.003512s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_end ] --END-- [ RunTime:0.003650s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001232s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.001407s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000851s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000959s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.004306s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | NOTIC: [2] Invalid argument supplied for foreach() Db.class.php 第 482 行.
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.005596s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run LocationTemplate Behavior [ RunTime:0.000940s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_template ] --END-- [ RunTime:0.001058s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ParseTemplate Behavior [ RunTime:0.014965s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015144s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ContentReplace Behavior [ RunTime:0.000708s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run TokenBuild Behavior [ RunTime:0.000757s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000416s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ShowRuntime Behavior [ RunTime:0.000693s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002930s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ShowPageTrace Behavior [ RunTime:0.003657s ]
+[ 2014-12-17T17:03:00+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_end ] --END-- [ RunTime:0.003803s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.001883s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002070s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001764s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001901s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001256s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001381s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.016251s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016382s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.001342s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.001671s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001022s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.002035s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006425s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.004283s ]
+[ 2014-12-17T17:07:01+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.004426s ]
+[ 2014-12-17T17:07:02+08:00 ] /thinkphpTest/admin.php/Login/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run CheckRoute Behavior [ RunTime:0.001111s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001285s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000772s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000883s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.004397s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.018312s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | SQL: SELECT * FROM `think_article` LIMIT 0,5   [ RunTime:0.000312s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001931s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.002048s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run ParseTemplate Behavior [ RunTime:0.035323s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.035470s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run ContentReplace Behavior [ RunTime:0.001612s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run TokenBuild Behavior [ RunTime:0.001983s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001351s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run ShowRuntime Behavior [ RunTime:0.002012s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007483s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.003533s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.003716s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001151s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.001307s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000723s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000817s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.004408s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.012480s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SELECT * FROM `think_article` LIMIT 0,5   [ RunTime:0.000298s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run LocationTemplate Behavior [ RunTime:0.001006s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_template ] --END-- [ RunTime:0.001121s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ParseTemplate Behavior [ RunTime:0.030253s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --END-- [ RunTime:0.030383s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ContentReplace Behavior [ RunTime:0.000783s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run TokenBuild Behavior [ RunTime:0.000980s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000418s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ShowRuntime Behavior [ RunTime:0.002017s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004601s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ShowPageTrace Behavior [ RunTime:0.005955s ]
+[ 2014-12-17T17:07:03+08:00 ] /thinkphpTest/admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_end ] --END-- [ RunTime:0.006111s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run CheckRoute Behavior [ RunTime:0.001087s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001254s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000700s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000808s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.005940s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | NOTIC: [2] Invalid argument supplied for foreach() Db.class.php 第 482 行.
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.007237s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run LocationTemplate Behavior [ RunTime:0.002314s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002445s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ParseTemplate Behavior [ RunTime:0.017884s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018022s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ContentReplace Behavior [ RunTime:0.001281s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run TokenBuild Behavior [ RunTime:0.001346s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000997s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ShowRuntime Behavior [ RunTime:0.002014s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006005s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ShowPageTrace Behavior [ RunTime:0.003456s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_end ] --END-- [ RunTime:0.003585s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001189s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.001363s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000834s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000941s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.004057s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | NOTIC: [2] Invalid argument supplied for foreach() Db.class.php 第 482 行.
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.006350s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run LocationTemplate Behavior [ RunTime:0.000850s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_template ] --END-- [ RunTime:0.000919s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ParseTemplate Behavior [ RunTime:0.012982s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013300s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ContentReplace Behavior [ RunTime:0.000514s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run TokenBuild Behavior [ RunTime:0.000551s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000291s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ShowRuntime Behavior [ RunTime:0.001535s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003139s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ShowPageTrace Behavior [ RunTime:0.002177s ]
+[ 2014-12-17T17:07:07+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_end ] --END-- [ RunTime:0.002285s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run CheckRoute Behavior [ RunTime:0.001470s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001607s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001607s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001721s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.004401s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | NOTIC: [2] Invalid argument supplied for foreach() Db.class.php 第 482 行.
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.005662s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run LocationTemplate Behavior [ RunTime:0.001470s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001533s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ParseTemplate Behavior [ RunTime:0.016154s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016259s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ContentReplace Behavior [ RunTime:0.001190s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run TokenBuild Behavior [ RunTime:0.001377s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000965s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ShowRuntime Behavior [ RunTime:0.001216s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004980s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Run ShowPageTrace Behavior [ RunTime:0.003244s ]
+[ 2014-12-17T17:09:29+08:00 ] /thinkphpTest/admin.php/Article/edit/id/9 | INFO: Tag[ view_end ] --END-- [ RunTime:0.003372s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ route_check ] --START--
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001143s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.001316s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --START--
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000839s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000957s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.005920s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | NOTIC: [2] Invalid argument supplied for foreach() Db.class.php 第 482 行.
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | SQL: SELECT * FROM `think_article` LIMIT 1   [ RunTime:0.009604s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_template ] --START--
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run LocationTemplate Behavior [ RunTime:0.000967s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_template ] --END-- [ RunTime:0.001086s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --START--
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ParseTemplate Behavior [ RunTime:0.015008s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015145s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --START--
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ContentReplace Behavior [ RunTime:0.000565s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run TokenBuild Behavior [ RunTime:0.000664s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000352s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ShowRuntime Behavior [ RunTime:0.000591s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002470s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_end ] --START--
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Run ShowPageTrace Behavior [ RunTime:0.002539s ]
+[ 2014-12-17T17:09:30+08:00 ] /thinkphpTest/admin.php/Article/edit/id/resources/images/closelabel.gif | INFO: Tag[ view_end ] --END-- [ RunTime:0.002678s ]

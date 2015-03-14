@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>MainPage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="__PUBLIC__/Css/home//bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="__PUBLIC__/Css/home/blog.css" rel="stylesheet">
+    <link href="__PUBLIC__/Css/home/sch.css" rel="stylesheet">
+
+    <script src="__PUBLIC__/Js/jquery-1.11.2.min.js"></script>
+    <script src="__PUBLIC__/Js/home/jquery.goup.min.js"></script>
+    <script src="__PUBLIC__/Js/home/common.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <include file="./Home/Tpl/head.html"/>
+
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-8 blog-main">
+        <hr/>
+        <foreach name="blog_list" item="blog">
+          <div class="blog-post">
+            <h2 class="blog-post-title"><a href="__URL__/blog/id/{$blog.id}">{$blog.title}</a></h2>
+            <p class="blog-post-meta">
+              {$blog.lastModifyTime} by <i>{$blog.author}</i> | <a href="__URL__/index/category/{$blog.categoryId}">{$blog.categoryName}</a>
+            </p>
+            <p>{$blog.abstract}</p>
+            <a class="readmore" href="__URL__/blog/id/{$blog.id}">ReadMore-></a>
+          </div>
+        </foreach>
+
+        <if condition="$mypage:pageNum gt 1">
+        <nav style="text-align:center;">
+          <ul class="pagination pagination-lg">
+            <eq name="mypage:currentPage" value="1"> <!--name属性 变量不用加$-->
+              <li class="disabled">
+                <a aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+            <else/>
+              <li>
+                <a href="__URL__/index/{$next_link_cate}page/{$mypage:currentPage-1}" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+            </eq>
+            <for start="$mypage:start" end="$mypage:end+1" name="i">
+              <eq name="i" value="$mypage:currentPage">
+                <li class="active"><a>{$i}</a></li>
+              <else/>
+                <li><a href="__URL__/index/{$next_link_cate}page/{$i}">{$i}</a></li>
+              </eq>
+            </for>
+            <eq name="mypage:currentPage" value="$mypage:pageNum">
+              <li class="disabled">
+                <a aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            <else/>
+              <li>
+                <a href="__URL__/index/{$next_link_cate}page/{$mypage:currentPage+1}" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </eq>
+          </ul>
+        </nav>
+        </if>
+
+      </div><!-- /.blog-main -->
+
+      <include file="./Home/Tpl/sidebar.html"/>
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+  <include file="./Home/Tpl/footer.html"/>
+
+  </body>
+</html>

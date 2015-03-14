@@ -1,0 +1,31 @@
+[ 2014-11-26T15:36:27+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2014-11-26T15:36:27+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003253s ]
+[ 2014-11-26T15:36:27+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003579s ]
+[ 2014-11-26T15:36:38+08:00 ] /thinkphpTest/Admin/ | ERR: (ThinkException) 无法加载模块Admin
+[ 2014-11-26T15:36:44+08:00 ] /thinkphpTest/Admin | ERR: (ThinkException) 无法加载模块Admin
+[ 2014-11-26T15:37:02+08:00 ] /thinkphpTest/admin | ERR: (ThinkException) 无法加载模块admin
+[ 2014-11-26T15:37:07+08:00 ] /thinkphpTest/Admin | ERR: (ThinkException) 无法加载模块Admin
+[ 2014-11-26T15:49:06+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2014-11-26T15:49:06+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001405s ]
+[ 2014-11-26T15:49:06+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001518s ]
+[ 2014-11-26T15:49:36+08:00 ] /thinkphpTest/Admin/login | ERR: (ThinkException) 无法加载模块Admin
+[ 2014-11-26T15:50:22+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2014-11-26T15:50:22+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002352s ]
+[ 2014-11-26T15:50:22+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002548s ]
+[ 2014-11-26T20:50:15+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2014-11-26T20:50:15+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001058s ]
+[ 2014-11-26T20:50:15+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001177s ]
+[ 2014-11-26T20:50:42+08:00 ] /thinkphpTest/Login/index | ERR: (ThinkException) 无法加载模块Login
+[ 2014-11-26T21:09:47+08:00 ] /thinkphpTest/Index/index | INFO: Tag[ route_check ] --START--
+[ 2014-11-26T21:09:47+08:00 ] /thinkphpTest/Index/index | INFO: Run CheckRoute Behavior [ RunTime:0.001186s ]
+[ 2014-11-26T21:09:47+08:00 ] /thinkphpTest/Index/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001285s ]
+[ 2014-11-26T21:09:47+08:00 ] /thinkphpTest/Index/index | INFO: Tag[ app_begin ] --START--
+[ 2014-11-26T21:09:47+08:00 ] /thinkphpTest/Index/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000911s ]
+[ 2014-11-26T21:09:47+08:00 ] /thinkphpTest/Index/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000967s ]
+[ 2014-11-26T21:12:50+08:00 ] /thinkphpTest/Login/index | ERR: (ThinkException) 无法加载模块Login
+[ 2014-11-26T21:14:26+08:00 ] /thinkphpTest/Login/index | ERR: (ThinkException) 无法加载模块Login
+[ 2014-11-26T21:14:27+08:00 ] /thinkphpTest/Login/index | ERR: (ThinkException) 无法加载模块Login
+[ 2014-11-26T21:22:54+08:00 ] /thinkphpTest/Login/login | ERR: (ThinkException) 无法加载模块Login
+[ 2014-11-26T21:23:14+08:00 ] /thinkphpTest/Login/login | ERR: (ThinkException) 无法加载模块Login
+[ 2014-11-26T21:23:26+08:00 ] /thinkphpTest/Login/login | ERR: (ThinkException) 无法加载模块Login
+[ 2014-11-26T21:34:50+08:00 ] /thinkphpTest/Public/Images/adminicons/cross_grey_small.png | ERR: (ThinkException) 无法加载模块Public
