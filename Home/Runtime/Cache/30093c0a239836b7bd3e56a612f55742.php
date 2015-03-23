@@ -87,6 +87,7 @@
         </div>
 
         <div id="ad">
+          <img src="https://static-s.bilibili.com/images/v2images/login/2233pic.jpg">
         </div>
     </div>
         <footer class="blog-footer">

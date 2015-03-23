@@ -73,7 +73,8 @@
          </form>
         </div>
 
-        <div id="ad" style="top:180px; height:320px;">
+        <div id="ad" style="padding-top: 0">
+          <img src="https://static-s.bilibili.com/images/v2images/login/2233pic.jpg">
         </div>
     </div>
         <footer class="blog-footer">
