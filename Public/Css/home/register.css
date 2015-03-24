@@ -10,34 +10,38 @@
     float: left;
     font-family: Microsoft YaHei;
 }
-/*每行注册信息的标题*/
-label{
-    position: absolute;
-    top: 7px;
-    left: 10px;
-    margin: 0;
-    background: #fff;
-    color: #999;
-    font-size: 15px;
-    font-weight: normal;
-}
-/*每行注册信息的填写框*/
+
 .input-div{
     width: 100%;
     padding-left: 70px;
     margin: 15px 0 20px 0;
     position: relative;
 }
+/*每行注册信息的标题*/
+.input-div label{
+    position: absolute;
+    top: 0;
+    left: 70px;
+    padding: 7px;
+    color: #999;
+    font-size: 15px;
+    font-weight: normal;
+}
+.input-div span{
+    background-color: #fff;
+    position: relative;
+}
+/*每行注册信息的填写框*/
 .inputs{
+    position: relative;
     border: 1px solid #ccc;
+    background-color: transparent;
     border-radius: 4px;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     padding: 7px;
     font-size: 15px;
     width: 340px;
-    /*color: #ccc;*/
-    /*margin-right: 200px;*/
-    float:left;
+    z-index: 1;
 }
 
 /*控制所有输入框后面的提示*/
@@ -53,6 +57,7 @@ label{
     height: 30px; 
     position: absolute;
     left: 300px;
+    z-index: 1;
 }
 button{
     width: 340px;

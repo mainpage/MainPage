@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $(".inputs").labelFloat();
     //注册一个框状态数组，初始状态为0，输入的信息符合要求为1
     var ready_state = new Array(0, 0, 0, 0, 0);
     //用户名

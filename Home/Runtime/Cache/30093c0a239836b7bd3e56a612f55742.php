@@ -19,8 +19,10 @@
     <link href="__PUBLIC__/Css/home/register.css" rel="stylesheet">
 
     <script src="__PUBLIC__/Js/jquery-1.11.2.min.js"></script>
+    <script src="__PUBLIC__/Js/jquery.easing.min.js"></script>
     <script src="__PUBLIC__/Js/home/jquery.goup.min.js"></script>
     <script src="__PUBLIC__/Js/home/common.js"></script>
+    <script src="__PUBLIC__/Js/home/labelFloat.js"></script>
     <script src="__PUBLIC__/Js/home/register.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -49,40 +51,44 @@
     <div class="container">
         <div class="content">
         <form method="post" action="__URL__/onRegister">
-           <!--用户名-->
-           <div id="username" class="input-div">
-              <input type="text" id="input-username" name="user-name" class="inputs" value="" placeholder="输入用户名" autocomplete="off" />
+            <!--用户名-->
+            <div id="username" class="input-div">
+              <label for="user-name">输入用户名</label>
+              <input type="text" id="input-username" name="user-name" class="inputs" value="" autocomplete="off" />
               <!--提示信息-->
               <span class="tips" id="username-notice"></span>
-              
-           </div>
-           <!--邮箱-->
-           <div id="email" class="input-div">
-              <input type="text" id="input-email" name="email" class="inputs" value="" placeholder="输入邮箱地址" autocomplete="off" />
+            </div>
+            <!--邮箱-->
+            <div id="email" class="input-div">
+              <label for="email">输入邮箱地址</label>
+              <input type="text" id="input-email" name="email" class="inputs" value="" autocomplete="off" />
               <!--提示信息-->
               <span class="tips" id="email-notice"></span>
-           </div>
-           <!--密码-->
-           <div id="password" class="input-div">
-              <input type="password" id="input-password" name="password" class="inputs" value="" placeholder="设置密码" autocomplete="off" />
+            </div>
+            <!--密码-->
+            <div id="password" class="input-div">
+              <label for="password">设置密码</label>
+              <input type="password" id="input-password" name="password" class="inputs" value=""  autocomplete="off" />
               <!--提示信息-->
               <span class="tips" id="password-notice"></span>
-           </div>
-           <!--确认密码-->
-           <div id="confirm-password" class="input-div">
-              <input type="password" id="input-confirm-password" name="confirm-password" class="inputs" value="" placeholder="确认密码" autocomplete="off" />
+            </div>
+            <!--确认密码-->
+            <div id="confirm-password" class="input-div">
+              <label for="confirm-password">确认密码</label>
+              <input type="password" id="input-confirm-password" name="confirm-password" class="inputs" value="" autocomplete="off" />
               <!--提示信息-->
               <span class="tips" id="confirm-password-notice"></span>
-           </div>
-           <!--验证码-->
-           <div id="checkcode" class="input-div">
-              <input type="text" id="input-checkcode" name="checkcode" class="inputs" value="" placeholder="输入验证码" autocomplete="off" />
+            </div>
+            <!--验证码-->
+            <div id="checkcode" class="input-div">
+              <label for="checkcode">输入验证码</label>
+              <input type="text" id="input-checkcode" name="checkcode" class="inputs" value="" autocomplete="off" />
               <!--验证码图片-->
               <img id="checkcode-img" src="" style="cursor:pointer" alt="验证码"> 
               <!--提示信息-->
               <span class="tips" id="checkcode-notice"></span>
-           </div>   
-           <button type="submit" class="btn btn-primary" id="submit">立即注册</button>
+            </div>   
+            <button type="submit" class="btn btn-primary" id="submit">立即注册</button>
          </form>
         </div>
 

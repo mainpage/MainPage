@@ -1,0 +1,43 @@
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.003275s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.003522s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002262s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002441s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001915s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002086s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.112400s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.112588s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.001841s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.002187s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001502s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.002072s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008025s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.002937s ]
+[ 2015-03-24T10:58:47+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.003280s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.002240s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002780s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001420s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001654s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000499s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000597s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.023348s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.023438s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.000327s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.000502s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000338s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000436s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001791s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000585s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000645s ]
+[ 2015-03-24T13:54:34+08:00 ] /thinkphpTest/admin.php/Login/resources/images/closelabel.gif | ERR: (ThinkException) 非法操作resources

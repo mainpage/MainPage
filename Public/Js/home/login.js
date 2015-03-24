@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $(".inputs").labelFloat();
     var ready_state = 0;
     //用户名
     $("#input-username").focus(function () {
