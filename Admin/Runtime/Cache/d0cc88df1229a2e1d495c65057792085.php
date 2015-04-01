@@ -15,6 +15,14 @@
 <script type="text/javascript" src="__PUBLIC__/Js/admin/jquery.datePicker.js"></script>
 <script type="text/javascript" src="__PUBLIC__/Js/admin/jquery.date.js"></script>
 <script type="text/javascript" src="__PUBLIC__/Js/admin/others.js"></script>
+
+<style type="text/css">
+	form span{
+		position:absolute; 
+		right:60px; 
+		font-size:15px
+	}
+</style>
 </head>
 
 <body>
@@ -100,6 +108,7 @@
 				<!--隐藏域，保存当前正在编辑memo的id-->
 				<input type="hidden" id="memo-id" name="id" value="<?php echo ($memo_item["id"]); ?>"/>
 				<input id="submit-memo" class="button" type="submit" value="<?php echo ($button_text); ?>"/>
+				<span></span>
 			</form>
 			<div id="footer">
 				<small> <!-- Remove this notice or replace it with whatever you want -->

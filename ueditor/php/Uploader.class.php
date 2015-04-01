@@ -121,6 +121,7 @@ class Uploader
         } else { //移动成功
             $this->stateInfo = $this->stateMap[0];
         }*/
+        //sae文件上传api
         $saestor = new SaeStorage();
         $url = $saestor->upload('schspace', $this->fullName, $file['tmp_name']);
         $this->fullName = str_replace('\\', '/', $url);
@@ -165,6 +166,7 @@ class Uploader
         } else { //移动成功
             $this->stateInfo = $this->stateMap[0];
         }*/
+        //sae文件上传api
         $saestor = new SaeStorage();
         $url = $saestor->write('schspace', $this->fullName, $img);
         $this->fullName = str_replace('\\', '/', $url);

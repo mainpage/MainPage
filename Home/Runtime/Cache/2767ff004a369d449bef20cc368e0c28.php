@@ -43,8 +43,8 @@
     <nav class="blog-nav">
       <a class="blog-nav-item <?php echo ($navbar["index"]); ?>" href="<?php echo U('Index/index');?>">文章</a>
       <a class="blog-nav-item <?php echo ($navbar["memo"]); ?>" href="<?php echo U('Memo/index');?>">便签</a>
+      <a class="blog-nav-item <?php echo ($navbar["works"]); ?>" href="<?php echo U('Works/index');?>">作品</a>
       <a class="blog-nav-item" href="">相册</a>
-      <a class="blog-nav-item" href="">视频</a>
       <?php if(($user_name) == ""): ?><a class="blog-nav-item" href="<?php echo U('Login/register');?>" style="float:right;">注册</a>
         <a class="blog-nav-item" href="<?php echo U('Login/index');?>" style="float:right;">登录</a>
       <?php else: ?>

@@ -182,5 +182,11 @@
 			
 		</div> <!-- End #main-content -->
 	</div>
+	<script type="text/javascript">
+		$('#masonry').masonry({
+		    itemSelector : '.grid',
+		    columnWidth : 500,
+		});
+	</script>
 	</body>
 </html>
