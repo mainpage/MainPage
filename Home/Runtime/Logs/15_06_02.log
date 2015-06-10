@@ -1,0 +1,462 @@
+[ 2015-06-02T14:30:50+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.056489s ]
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.083418s ]
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.099854s ]
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.055819s ]
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.064186s ]
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.005196s ]
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.040167s ]
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.078272s ]
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.078565s ]
+[ 2015-06-02T14:30:51+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.418899s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.419014s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.016673s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.013956s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.018419s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.010250s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.059775s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.012545s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.012650s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001568s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001719s ]
+[ 2015-06-02T14:30:52+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.029014s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.006219s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000261s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.004438s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.005632s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001458s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001523s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.021325s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021395s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.000808s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.000878s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000617s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000798s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003259s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001019s ]
+[ 2015-06-02T14:30:53+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001096s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001037s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001145s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.043151s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.011543s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000448s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.003323s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.003646s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001448s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001520s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.029102s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.029175s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.000841s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.001013s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000683s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000823s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003535s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000815s ]
+[ 2015-06-02T14:31:01+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000872s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.040323s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.040486s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000815s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000926s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.029629s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.015840s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000300s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.016804s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.016920s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.036806s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.036930s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000396s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000336s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000247s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000403s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001544s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000449s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000512s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001843s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001981s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001376s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001487s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.004115s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.004100s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000148s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001328s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001391s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.017938s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018007s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000779s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000895s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000658s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000790s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003283s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000790s ]
+[ 2015-06-02T14:31:03+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000843s ]
+[ 2015-06-02T14:31:10+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001237s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001345s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000906s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000963s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.006629s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.005827s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000223s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001408s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001474s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.017890s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017999s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.001419s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.001405s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001019s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000876s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005061s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000912s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000969s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001344s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001655s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000672s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000756s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.003288s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.004088s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000142s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000431s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000487s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.011031s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011230s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000928s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000370s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000225s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000397s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002139s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000403s ]
+[ 2015-06-02T14:33:21+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000454s ]
+[ 2015-06-02T14:33:40+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001053s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000656s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000745s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.004799s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.011212s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000238s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000673s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000794s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.015022s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015106s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000366s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000355s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000215s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000392s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001471s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000383s ]
+[ 2015-06-02T14:34:50+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000432s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001101s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001262s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000725s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000823s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.003383s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.006801s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000280s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000482s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000569s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.020126s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020257s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000938s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000516s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000297s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000839s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003043s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001082s ]
+[ 2015-06-02T14:34:51+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001219s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001476s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001600s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001106s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001185s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.069085s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.007299s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000188s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001943s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002171s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.018186s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018310s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.001244s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.001138s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000988s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001299s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004923s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001083s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001142s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.002159s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002386s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001365s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001475s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.003265s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.005208s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000229s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.003644s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.003856s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.026233s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026414s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000933s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000847s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000671s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.002281s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005217s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.003143s ]
+[ 2015-06-02T14:39:04+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.003374s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.002442s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002677s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001653s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001904s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.031639s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.014886s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000195s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001303s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001364s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.018545s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018644s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.001259s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.001051s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001148s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.002506s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006353s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000892s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000951s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.000860s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000959s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000500s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000555s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.002207s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.004111s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000138s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000446s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000505s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.012554s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.012623s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000358s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000361s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000232s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000413s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001517s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000463s ]
+[ 2015-06-02T14:39:17+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000530s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001627s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001732s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000932s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000992s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.028314s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.009928s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000220s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001476s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001548s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.018655s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018729s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000863s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.001430s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001346s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.002933s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007119s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001745s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001853s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001112s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001291s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000957s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001081s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.003289s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.007274s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000162s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000542s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000633s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.018410s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018570s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000900s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000684s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000497s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001028s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003592s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000699s ]
+[ 2015-06-02T14:39:43+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000811s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001262s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001363s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000917s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000973s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.031008s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.008535s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000147s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001697s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001858s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.014952s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015040s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000974s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.001187s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000663s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000918s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004008s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000842s ]
+[ 2015-06-02T14:41:27+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000897s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --START--
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001100s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001217s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000837s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000887s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | SQL: SHOW COLUMNS FROM `think_memo` [ RunTime:0.004267s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT COUNT(*) AS tp_count FROM `think_memo` LIMIT 1   [ RunTime:0.029640s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | SQL: SELECT * FROM `think_memo` ORDER BY id LIMIT 0,10   [ RunTime:0.000159s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --START--
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001576s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001648s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  index 2767ff004a369d449bef20cc368e0c28.php 第 44 行.
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | NOTIC: [8] Undefined index:  works 2767ff004a369d449bef20cc368e0c28.php 第 46 行.
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.014219s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014292s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000995s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000823s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000658s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000829s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003478s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --START--
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000774s ]
+[ 2015-06-02T14:41:28+08:00 ] /thinkphpTest/Memo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000835s ]
+[ 2015-06-02T14:41:31+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public

@@ -1,0 +1,461 @@
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000985s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001090s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.082220s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.013782s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000497s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.004249s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.005570s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.002173s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.002262s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.219234s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.219366s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.002044s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.002296s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001628s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.002165s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008532s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.002543s ]
+[ 2015-06-11T00:01:39+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.002753s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000772s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000921s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.037826s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.019187s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000312s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.003507s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.005254s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000631s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000690s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015562s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015630s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.000429s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.000378s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000217s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000427s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001603s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000380s ]
+[ 2015-06-11T00:01:40+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000432s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000932s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001025s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.034002s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.030151s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000293s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.002607s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.004033s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001510s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001574s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017262s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017327s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.000809s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.000738s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000625s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000786s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003109s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000777s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000828s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000729s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000871s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.004549s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.020776s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000415s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.006351s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.001885s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000621s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000684s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.018479s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018550s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.000398s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.000387s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000213s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000400s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001557s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000378s ]
+[ 2015-06-11T00:02:00+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000429s ]
+[ 2015-06-11T00:02:08+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:02:08+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+[ 2015-06-11T00:02:08+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001074s ]
+[ 2015-06-11T00:02:08+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.062649s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.009169s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000600s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.010261s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.017737s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001416s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001480s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.024574s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024645s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.000841s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.000894s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000637s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000812s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003332s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000767s ]
+[ 2015-06-11T00:02:09+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000817s ]
+[ 2015-06-11T00:02:11+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000984s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001087s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.007214s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.019373s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000438s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.003860s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.004848s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.002616s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.002735s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.019880s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019968s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.001061s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.001508s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000943s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000845s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004622s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000828s ]
+[ 2015-06-11T00:04:27+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000883s ]
+[ 2015-06-11T00:04:36+08:00 ] /thinkphpTest/ueditor/themes/default/ueditor.css | ERR: (ThinkException) 无法加载模块ueditor
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001384s ]
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001571s ]
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.145547s ]
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.057347s ]
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000446s ]
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.002686s ]
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.003503s ]
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001465s ]
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001525s ]
+[ 2015-06-11T00:11:11+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.296631s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.296750s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.002108s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.002147s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002148s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.002098s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008957s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.002260s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.002413s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/Public/Css/home/bootstrap.css.map | ERR: (ThinkException) 无法加载模块Public
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000786s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000948s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.037870s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.039267s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000291s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.002943s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | SQL: SELECT * FROM `think_category`  [ RunTime:0.003547s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000597s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000662s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run ParseTemplate Behavior [ RunTime:0.014369s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014434s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run ContentReplace Behavior [ RunTime:0.000398s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run TokenBuild Behavior [ RunTime:0.000384s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000212s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000397s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001551s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000349s ]
+[ 2015-06-11T00:11:12+08:00 ] /thinkphpTest/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000396s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000907s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001025s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000639s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000720s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.006040s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.006425s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000294s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.002591s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_category`  [ RunTime:0.005907s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000843s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000941s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.015581s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015675s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000406s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000381s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000216s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000387s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001536s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000391s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000441s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run CheckRoute Behavior [ RunTime:0.001333s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001474s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000494s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000551s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.002888s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.004680s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000273s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.002728s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_category`  [ RunTime:0.001580s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000621s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000692s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.014473s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014541s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000350s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000377s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000199s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000356s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001416s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000378s ]
+[ 2015-06-11T00:11:17+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000426s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ route_check ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run CheckRoute Behavior [ RunTime:0.001230s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001342s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001284s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001375s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.018523s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE id=49 LIMIT 1   [ RunTime:0.036935s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SELECT `id` FROM `think_article` WHERE id<49 and isSubmitted=1 ORDER BY id desc LIMIT 1   [ RunTime:0.000321s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SELECT `id` FROM `think_article` WHERE id>49 and isSubmitted=1 ORDER BY id LIMIT 1   [ RunTime:0.000369s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.002944s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SELECT * FROM `think_category`  [ RunTime:0.017862s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run LocationTemplate Behavior [ RunTime:0.001445s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001506s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | NOTIC: [8] Undefined index:  memo 2387c9611647ca5bbeeb0c2824eaf5f8.php 第 44 行.
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | NOTIC: [8] Undefined index:  works 2387c9611647ca5bbeeb0c2824eaf5f8.php 第 45 行.
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run ParseTemplate Behavior [ RunTime:0.069034s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.069103s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run ContentReplace Behavior [ RunTime:0.000833s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run TokenBuild Behavior [ RunTime:0.000826s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000832s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run ShowRuntime Behavior [ RunTime:0.001168s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003833s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001501s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001884s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ route_check ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run CheckRoute Behavior [ RunTime:0.002898s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ route_check ] --END-- [ RunTime:0.003338s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000802s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000917s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.002824s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE id=49 LIMIT 1   [ RunTime:0.004930s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SELECT `id` FROM `think_article` WHERE id<49 and isSubmitted=1 ORDER BY id desc LIMIT 1   [ RunTime:0.000228s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SELECT `id` FROM `think_article` WHERE id>49 and isSubmitted=1 ORDER BY id LIMIT 1   [ RunTime:0.000150s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.002787s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | SQL: SELECT * FROM `think_category`  [ RunTime:0.001433s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run LocationTemplate Behavior [ RunTime:0.000599s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000657s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | NOTIC: [8] Undefined index:  memo 2387c9611647ca5bbeeb0c2824eaf5f8.php 第 44 行.
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | NOTIC: [8] Undefined index:  works 2387c9611647ca5bbeeb0c2824eaf5f8.php 第 45 行.
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run ParseTemplate Behavior [ RunTime:0.010818s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010891s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run ContentReplace Behavior [ RunTime:0.000388s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run TokenBuild Behavior [ RunTime:0.000362s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000209s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run ShowRuntime Behavior [ RunTime:0.001052s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002164s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000608s ]
+[ 2015-06-11T00:11:28+08:00 ] /thinkphpTest/Index/blog/id/49 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000720s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run CheckRoute Behavior [ RunTime:0.001107s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001267s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000549s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000609s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.014620s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.005913s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000204s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.002389s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_category`  [ RunTime:0.003795s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.001042s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001101s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.017284s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017379s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000474s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000379s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000216s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.001122s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002360s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000494s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000565s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run CheckRoute Behavior [ RunTime:0.000824s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000937s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000625s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000704s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.002975s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.004575s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000245s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.003037s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_category`  [ RunTime:0.001785s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.000836s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000914s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.019153s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019240s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000544s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000535s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000289s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.001536s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003149s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000543s ]
+[ 2015-06-11T00:11:31+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000620s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run CheckRoute Behavior [ RunTime:0.001175s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001281s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001494s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001582s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.027808s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.006908s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000395s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.004909s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_category`  [ RunTime:0.003984s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.001736s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001812s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.030302s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.030372s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000787s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run TokenBuild Behavior [ RunTime:0.001003s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001084s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000982s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004130s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000912s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000972s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run CheckRoute Behavior [ RunTime:0.001145s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001242s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000883s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000936s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  customer_user BaseAction.class.php 第 7 行.
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.003439s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE isSubmitted=1 LIMIT 1   [ RunTime:0.004267s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_article` LEFT JOIN think_category on think_article.categoryId=think_category.categoryId WHERE isSubmitted=1 ORDER BY id LIMIT 0,5   [ RunTime:0.000297s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined variable: next_link_cate IndexAction.class.php 第 28 行.
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.003690s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | SQL: SELECT * FROM `think_category`  [ RunTime:0.002209s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run LocationTemplate Behavior [ RunTime:0.001525s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001589s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  memo 7e4848229090366086cc7eeb3bfc0798.php 第 43 行.
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | NOTIC: [8] Undefined index:  works 7e4848229090366086cc7eeb3bfc0798.php 第 44 行.
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run ParseTemplate Behavior [ RunTime:0.017772s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017844s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run ContentReplace Behavior [ RunTime:0.000849s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run TokenBuild Behavior [ RunTime:0.000808s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000650s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run ShowRuntime Behavior [ RunTime:0.000814s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003280s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --START--
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000809s ]
+[ 2015-06-11T00:15:13+08:00 ] /thinkphpTest/Index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000863s ]
+[ 2015-06-11T00:15:20+08:00 ] /thinkphpTest/window.location.href | ERR: (ThinkException) 无法加载模块window.location.href

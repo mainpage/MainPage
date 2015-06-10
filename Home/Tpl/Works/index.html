@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>个人作品</title>
-	<link rel="stylesheet" href="__PUBLIC__/css/home/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="__PUBLIC__/Css/home/bootstrap.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="__PUBLIC__/Css/home/blog.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="__PUBLIC__/css/home/sch.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="__PUBLIC__/Css/home/sch.css" type="text/css" media="screen">
 </head>
 
 <body>

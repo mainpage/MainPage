@@ -33,7 +33,7 @@
 
     <div class="container">
   <div class="blog-header">
-    <h1 class="blog-title">MainPage</h1>
+    <h1 class="blog-title"><a href="<?php echo U('Index/index');?>">MainPage</a></h1>
     <p class="lead blog-description">沙朝恒的个人主页 | 为成为老司机而奋斗</p>
   </div>
 </div>
@@ -42,8 +42,8 @@
     <nav class="blog-nav">
       <a class="blog-nav-item <?php echo ($navbar["index"]); ?>" href="<?php echo U('Index/index');?>">文章</a>
       <a class="blog-nav-item <?php echo ($navbar["memo"]); ?>" href="<?php echo U('Memo/index');?>">便签</a>
+      <a class="blog-nav-item <?php echo ($navbar["works"]); ?>" href="<?php echo U('Works/index');?>">作品</a>
       <a class="blog-nav-item" href="">相册</a>
-      <a class="blog-nav-item" href="">视频</a>
       <?php if(($user_name) == ""): ?><a class="blog-nav-item" href="<?php echo U('Login/register');?>" style="float:right;">注册</a>
         <a class="blog-nav-item" href="<?php echo U('Login/index');?>" style="float:right;">登录</a>
       <?php else: ?>
@@ -55,9 +55,8 @@
 
     <div class="container">
       <div class="row">
-      <div class="col-sm-8 blog-main">
+      <div class="blog-show">
         <div class="blog-post">
-          <hr/>
           <h2 class="blog-post-title"><?php echo ($blog["title"]); ?></h2>
           <p class="blog-post-meta">
             <?php echo ($blog["lastModifyTime"]); ?> by <i><?php echo ($blog["author"]); ?></i> | <a href="__URL__/index/category/<?php echo ($blog["categoryId"]); ?>"><?php echo ($blog["categoryName"]); ?></a>
@@ -85,40 +84,13 @@
         </nav>
 
       </div><!-- /.blog-main -->
-
-      <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-    <div class="sidebar-module sidebar-module-inset">
-      <h4>About</h4>
-      <p><em>Truth's like a blanket that always leaves your feet cold. You push it, stretch it, it'll never be enough. You kick at it, beat it, it will never cover any of us. From the moment we enter crying to the moment we leave dying, it will cover just your face as you wail and cry and scream!</em></p>
-    </div>
-    <div class="sidebar-module">
-      <h4>Categories</h4>
-      <ol class="list-unstyled">
-        <?php if(is_array($category_list)): foreach($category_list as $key=>$category): ?><li style="font-family:Microsoft YaHei; font-size:16px;">
-          <a href="__URL__/index/category/<?php echo ($category["categoryId"]); ?>"><?php echo ($category["categoryName"]); ?></a>
-        </li><?php endforeach; endif; ?>
-      </ol>
-    </div>
-    <div class="sidebar-module">
-      <h4>Elsewhere</h4>
-      <ol class="list-unstyled">
-        <li><a href="https://github.com/mainpage" target="a_blank">GitHub</a></li>
-        <li><a href="http://weibo.com/u/1824455400" target="a_blank">Weibo</a></li>
-      </ol>
-    </div>
-  </div><!-- /.blog-sidebar -->
-
-</div><!-- /.row -->
-
       </div><!-- /.row -->
-
     </div><!-- /.container -->
 
-    <footer class="blog-footer">
-      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
+        <footer class="blog-footer">
+      <p>Based on <a href="http://getbootstrap.com">Bootstrap</a></p>
+      <p>© <a href="__URL__" title="© MainPage">MainPage</a> All rights reserved.</p>
+        <p><a href="http://schspace.sinaapp.com/admin.php">entrance of backstage</a></p>
     </footer>
 
   </body>

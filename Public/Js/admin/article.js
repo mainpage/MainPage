@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 	//保存草稿
 	$("#save-article").click(function(){
-        $.post(URL+"save", {"id":$("#article-id").val(),"title":$("#txtTitle").val(),"content":editor.getContent(),"categoryId":$("#dropdown").val()}, function(return_id){
+        $.post(URL+"/save", {"id":$("#article-id").val(),"title":$("#txtTitle").val(),"content":editor.getContent(),"categoryId":$("#dropdown").val()}, function(return_id){
 			if(return_id){
 				//alert(return_id);
 				//将草稿生成的id存入隐藏域，提交文章时根据此id将数据库中草稿的isSubmitted状态改为1
@@ -40,6 +40,9 @@ $(document).ready(function(){
 				$("#save-notification").text("草稿已成功保存!("+new Date().toLocaleTimeString()+")");
 				$("#save-notification").parent().css("display","block");
 				$("#save-notification").parent().addClass("notification success png_bg");
+				setTimeout(function(){
+					$("#save-notification").parent().hide("slow");
+				},1000);
 			}
 			else{
 				//显示保存草稿失败

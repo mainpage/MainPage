@@ -232,6 +232,7 @@ class ArticleAction extends BaseAction
             $article->abstract = $this->getAbstract($_POST['content']);
             $article->lastModifyTime = date("Y-m-d H:i:s");
             $article->isSubmitted = 0;
+            $article->categoryId =  $_POST['categoryId'];
             $article->where("id=$id")->save();
             echo $id;
         }
@@ -247,6 +248,7 @@ class ArticleAction extends BaseAction
             $article->isSubmitted = 0;
             $article->categoryId =  $_POST['categoryId'];
             echo $article->add();
+
         }
     }
 
@@ -284,7 +286,7 @@ class ArticleAction extends BaseAction
     {
         //$content_text = strip_tags($content); //去除content中的html符号
         //return substr($content_text, 0, 10)."..."; //截取前10个字符
-        $pattern = '/.*?\/p\>/';
+        $pattern = '/.*?\/p\>/'; //?表示非贪婪模式
         preg_match_all($pattern, $content, $matches, PREG_PATTERN_ORDER); //匹配/p>之前的字符，每个匹配项即为一个段落
         return strip_tags($matches[0][0]); //返回第一个段落，并去除其中包含的html标签
     }

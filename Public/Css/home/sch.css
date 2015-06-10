@@ -1,5 +1,7 @@
 /*重写blog.css及bootstrap部分样式*/
-
+*{
+	padding: 0;
+}
 a:hover{
 	text-decoration: none;
 }
@@ -56,7 +58,19 @@ a:hover{
 hr{
 	border-top: 2px solid #eee;;
 }
-
+/*单篇blog展示页面布局*/
+.blog-show{
+	width: 80%;
+	margin: 40px auto;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.blog-show .blog-post-title{
+	text-align: center;
+}
+.blog-show .blog-post-meta{
+	text-align: center;
+}
 /*memo页面*/
 
 .note{

@@ -35,9 +35,8 @@
 
     <div class="container">
       <div class="row">
-      <div class="col-sm-8 blog-main">
+      <div class="blog-show">
         <div class="blog-post">
-          <hr/>
           <h2 class="blog-post-title">{$blog.title}</h2>
           <p class="blog-post-meta">
             {$blog.lastModifyTime} by <i>{$blog.author}</i> | <a href="__URL__/index/category/{$blog.categoryId}">{$blog.categoryName}</a>
@@ -69,11 +68,7 @@
         </nav>
 
       </div><!-- /.blog-main -->
-
-      <include file="./Home/Tpl/sidebar.html"/>
-
       </div><!-- /.row -->
-
     </div><!-- /.container -->
 
     <include file="./Home/Tpl/footer.html"/>

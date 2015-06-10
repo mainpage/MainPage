@@ -129,7 +129,7 @@
       <footer class="blog-footer">
       <p>Based on <a href="http://getbootstrap.com">Bootstrap</a></p>
       <p>© <a href="http://schspace.sinaapp.com" title="© MainPage">MainPage</a> All rights reserved.</p>
-        <p><a href="http://schspace.sinaapp.com/admin.php">entrance of backstage</a></p>
+        <p><a href=window.location.href>entrance of backstage</a></p>
     </footer>
 
   </body>
