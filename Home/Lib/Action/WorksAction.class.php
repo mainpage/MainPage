@@ -16,6 +16,14 @@ class WorksAction extends BaseAction
 	{
 		$this->display();
 	}
+	public function slider()
+	{
+		$this->display();
+	}
+	public function touchSlider()
+	{
+		$this->display();
+	}
 }
 
 ?>

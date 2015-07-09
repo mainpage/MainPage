@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>图片轮播</title>
+	<style type="text/css">
+	body,ul,li,h1,h2,h3,p{ margin: 0px; padding: 0px;}
+	ul{ list-style: none;}
+	a{ text-decoration: none;}
+	
+	.head{ height: 40px; margin: 0 0 30px 0; padding: 0; background-color: #428bca; box-shadow: inset 0 -2px 5px rgba(0,0,0,.1); font-family: Micriosoft YaHei; font-size: 25px; color: #fff; text-align: center; padding-top: 10px;}
+	.view-wrapper{ position: relative; width:30%; margin: 20px auto; border: 1px solid black; overflow: hidden;}
+	.view{ position: relative; font-size: 0px;}
+	.view-item{ display: inline-block;}
+	.view-item img{ width: 100%;}
+	.view-footer{ position: absolute; bottom: 0px; left: 0px; width: 100%; height: 30px; background: rgba(0,0,0,0.7); }
+	.view-nav{ position: absolute; bottom: 0px; right: 0px;  height: 30px; line-height: 30px;}
+	.view-nav-item{ display: inline-block; width: 20px; height: 20px; background: url(__PUBLIC__/Images/home/works/slider/icons.png) 0 -509px no-repeat; vertical-align: middle; cursor: pointer;}
+	.view-nav-item:hover{ background-position: 0 -467px;}
+	.view-nav .active{ background-position: 0 -423px;}
+	</style>
+</head>
+<body>
+	<div class="head">
+		<p>图片轮播</p>
+	</div>
+	<div class="container">
+		<div class="view-wrapper">
+			<ul class="view">
+				<li class="view-item"><img src="__PUBLIC__/Images/home/works/slider/1.jpg"></li>
+				<li class="view-item"><img src="__PUBLIC__/Images/home/works/slider/2.jpg"></li>
+				<li class="view-item"><img src="__PUBLIC__/Images/home/works/slider/3.jpg"></li>
+				<li class="view-item"><img src="__PUBLIC__/Images/home/works/slider/4.jpg"></li>
+			</ul>
+			<div class="view-footer">
+				<div class="view-nav">
+					<li class="view-nav-item active"></li>
+					<li class="view-nav-item"></li>
+					<li class="view-nav-item"></li>
+					<li class="view-nav-item"></li>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var slider = {
+				curIndex: 1,
+				num: -1,
+				slideTimer: null,
+
+				init: function(){
+					$(".view-item:first-child").clone().appendTo($(".view"));
+					slider.num = $(".view-item").length;
+					$(".view").css("width", slider.num*100 + "%");
+					$(".view-item").css("width", 100/slider.num + "%");
+					slider.play();
+					var viewNavItems = $(".view-nav-item");
+					/*for(var i = 1; i <= viewNavItems.length; i++){
+						(function(i){
+							$(".view-nav-item:nth-child("+i+")").on("click",function(e){
+								e.stopPropagation();
+								clearInterval(playInterval);
+								slider.slide(i);
+								slider.play();
+							})
+						})(i);
+					}*/
+					for(var i = 0; i < viewNavItems.length; i++){
+						(function(i){
+							viewNavItems[i].addEventListener("click", function(e){
+								e.stopPropagation();
+								clearInterval(slideTimer);
+								slider.slide(i+1);
+								slider.play();
+							})
+						})(i);
+					}
+				},
+
+				slide: function(targetIndex){
+					$(".view").stop(true).animate({left:-(targetIndex-1)*100+"%"}, 300, function(){
+						if(targetIndex == slider.num){
+								slider.curIndex = 1;
+								$(".view").css("left", 0);
+						}else{
+							slider.curIndex = targetIndex;
+						}
+						$(".view-nav .active").removeClass("active");
+						$(".view-nav-item:nth-child("+slider.curIndex+")").addClass("active");
+					});
+					
+				},
+
+				play: function(){
+					slideTimer = setInterval(function(){
+						var targetIndex = slider.curIndex + 1;
+						slider.slide(targetIndex);
+					},2000);
+				}
+			};
+			
+			slider.init();
+		});
+	</script>
+</body>
+</html>
